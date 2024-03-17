@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #c0c6a5;
+}
+.game {
+    display: inline-grid;
+    gap: 12px 12px;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 0px;
+    border-radius: 8px;
+    background-color: #14213d;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.2);
+    font-size: 60px;
+    color: #EEEEEE;
+}
+
+.container{
+    height: 45vh;
+}
+
+h1{
+    margin:70px;
+    margin:40px;
+    font-size: 39px;
+    color: #001233;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.reset{
+    padding: 1rem;
+    width: 20rem;
+    border-radius: 10px;
+    background-color: #EEEEEE;
+    color: #31363F;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.2);
+}
+
+.player{
+    font-size: 25px;
+    padding: 25px;
+}
+
+.gif{
+    display: none;
+}
